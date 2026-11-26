@@ -2,8 +2,8 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Home Assistant](https://img.shields.io/badge/Home%20Assistant-Custom%20Integration-orange)](https://www.home-assistant.io/)
-[![Version](https://img.shields.io/badge/Version-1.4.5-blue)](https://github.com/djiesr/thermomaven-ha)
-[![hacs](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/hacs/integration)
+[![Version](https://img.shields.io/badge/Version-1.5.0-blue)](https://github.com/Avarios/ThermoMaven-ha)
+[![Open in HACS](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=Avarios&repository=ThermoMaven-ha&category=integration)
 
 Home Assistant integration for ThermoMaven wireless thermometers (P1, P2, P4, G1, G2, G4).
 
@@ -31,23 +31,27 @@ Home Assistant integration for ThermoMaven wireless thermometers (P1, P2, P4, G1
 
 ## 📦 Installation
 
-### Option 1: Installation via HACS (Recommended)
+### Option 1: Install with HACS (recommended)
 
-1. **Open HACS** in Home Assistant
-2. Go to **Integrations**
-3. Click **⋮** (menu) → **Custom repositories**
-4. Add URL: `https://github.com/djiesr/thermomaven-ha`
-5. Category: **Integration**
-6. Click **Add**
-7. Search for **"ThermoMaven"** in HACS
-8. Click **Download**
-9. **Restart Home Assistant**
+On Home Assistant versions before 2026.11, HACS must already be installed and configured. On Home Assistant 2026.11 or later, the same link opens the Marketplace.
+
+[![Open ThermoMaven in HACS](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=Avarios&repository=ThermoMaven-ha&category=integration)
+
+1. Click the button and select your Home Assistant instance if prompted.
+2. If prompted, add ThermoMaven as a custom integration repository.
+3. Click **Download** and confirm the installation.
+4. Restart Home Assistant.
+5. Use the button below to add the integration and enter your ThermoMaven credentials.
+
+[![Add ThermoMaven integration](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=thermomaven)
+
+If the button does not work, add `https://github.com/Avarios/ThermoMaven-ha` under **HACS → ⋮ → Custom repositories**, choose **Integration**, and search for ThermoMaven.
 
 ### Option 2: Manual Installation
 
-1. **Download** the [latest release](https://github.com/djiesr/thermomaven-ha/releases/latest)
-2. **Extract** the `custom_components/thermomaven` folder
-3. **Copy** to: `/config/custom_components/thermomaven/`
+1. **Download** the [latest release](https://github.com/Avarios/ThermoMaven-ha/releases/latest)
+2. **Extract** the release ZIP (or use `custom_components/thermomaven` from the source archive)
+3. **Copy** the extracted `thermomaven` folder to `/config/custom_components/thermomaven/`
 4. **Restart Home Assistant**
 
 Final structure:
@@ -364,9 +368,9 @@ Contributions are welcome!
 
 ## 📞 Support
 
-- 🐛 **Bugs**: [GitHub Issues](https://github.com/djiesr/thermomaven-ha/issues)
-- 💬 **Discussions**: [GitHub Discussions](https://github.com/djiesr/thermomaven-ha/discussions)
-- 📖 **Wiki**: [Documentation Wiki](https://github.com/djiesr/thermomaven-ha/wiki)
+- 🐛 **Bugs**: [GitHub Issues](https://github.com/Avarios/ThermoMaven-ha/issues)
+- 💬 **Discussions**: [GitHub Discussions](https://github.com/Avarios/ThermoMaven-ha/discussions)
+- 📖 **Wiki**: [Documentation Wiki](https://github.com/Avarios/ThermoMaven-ha/wiki)
 
 ---
 

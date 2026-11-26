@@ -4,7 +4,7 @@
   "codeowners": ["@djiesr"],
   "config_flow": true,
   "dependencies": [],
-  "documentation": "https://github.com/djiesr/thermomaven-ha",
+  "documentation": "https://github.com/Avarios/ThermoMaven-ha",
   "integration_type": "hub",
   "iot_class": "cloud_push",
   "requirements": [
@@ -12,6 +12,6 @@
     "cryptography>=41.0.0"
   ],
   "version": "1.5.0",
-  "issue_tracker": "https://github.com/djiesr/thermomaven-ha/issues"
+  "issue_tracker": "https://github.com/Avarios/ThermoMaven-ha/issues"
 }
 
